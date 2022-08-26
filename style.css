@@ -1,0 +1,66 @@
+
+.main-div
+{
+    padding: 25px;
+    /* background: url('./assets/video_preview\ \(1\).jpg'); */
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('./assets/bgg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #fff; 
+}
+h2
+{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    
+}
+@media only screen and (max-width: 417px) and (min-width: 230px)  
+{
+    h2
+    {
+        font-family: "Montserrat", Sans-serif;
+        font-size: 42px;
+        font-weight: 600;
+        
+    }
+}
+.cart ,.img
+{
+    border-radius: 10px 10px 10px 10px!important;
+}
+.main
+{
+    background-color: #2F2F2FA6;
+    height: 450px;
+}
+
+
+.img
+{
+    opacity: 0.4;
+    height: 300px;
+}
+h4
+{
+    min-height: 259px;
+    text-align: center;
+}
+h3
+{
+    font-family: montserrat,Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: .3em;
+    text-align: center;
+    position: relative;
+    top:44%;
+}
+.col-md-5 img
+{
+    height:250px
+}
